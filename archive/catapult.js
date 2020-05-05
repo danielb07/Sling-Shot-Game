@@ -13,9 +13,8 @@ class Catapult{
     fly(){
         this.catapult.bodyA = null;
     }
-    attach(Body){
-        this.catapult.bodyA = Body;
-       
+    attach(body){
+        this.catapult.bodyA = body;
     }
     display(){
         if(this.catapult.bodyA){

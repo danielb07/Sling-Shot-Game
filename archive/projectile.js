@@ -5,7 +5,7 @@ class Projectile {
             density:0.2
         }
 
-        this.body = Bodies.circle(x,y,30);
+        this.body = Bodies.circle(x,y,50);
         this.x = x;
         this.y = y;
         World.add(world, this.body);
@@ -19,7 +19,7 @@ class Projectile {
         rotate(angle);
 
         fill("ffffff");
-        ellipse(0,0,40,40);
+        ellipse(0,0,50,50);
         pop();
     }
 }
