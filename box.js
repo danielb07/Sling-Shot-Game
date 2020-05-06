@@ -2,8 +2,8 @@ class Box {
     constructor(x,y,c){
         var options = {
             restitution:0.2,
-            friction:0.1,
-            density:0.2
+            // friction:0.1,
+            // density:1.0
         }
         this.width = 15;
         this.height = 35;
